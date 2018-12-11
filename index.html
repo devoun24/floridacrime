@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Florida Crime</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+	integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+	crossorigin="">
+</head>
+
+<body>
+
+  <div id="pagepiling">
+    <div class="section" id="section1">
+      <h1>Crime in the Sunshine State</h1>
+        <p><i>By Devoun Cetoute</i></p>
+    	  <p>
+          474,481 crimes have been commited and reported by sheriffs' offices or county police departments from across Florida last year, according to the FBI's Uniform Crime Reporting Program. Crime is an event that will affect every citizen at some point in their lives. For some residents in the state that time will be sooner than later. This special project will show you what Florida cities are hotspots for criminal activity, see if the high amount of crime can be attributed to social factors and see how Gainesville compares to cities with similar crime rates.<br><i>All crime data has been gathered from the <a href="https://ucr.fbi.gov/crime-in-the-u.s/2017/crime-in-the-u.s.-2017/tables/table-8/table-8-state-cuts/florida.xls">FBI</a> and social data from the <a href="https://factfinder.census.gov/faces/nav/jsf/pages/community_facts.xhtml">United States Census Bureau</a>.</i>
+    	  </p>
+        <ul id="menu">
+          <li data-menuanchor="page2"><a href="#page2">Hotspots</a></li>
+          <li data-menuanchor="page3" id="s2"><a href="#page3">Social Factors</a></li>
+          <li data-menuanchor="page4" id="s3"><a href="#page4">Gainesville Comparison</a></li>
+        </ul>
+      </div>
+
+      <div class="section" id="section2">
+        <h1>Criminal Hotspots</h1>
+          <div id="phase1">
+      	     <p>
+               Miami Beach. Daytona Beach. Orlando. Fort Lauderdale. Ocala. These five cities had the highest crime rates in 2017. Respectively, 183 crimes per 1,000 residents; 135.3 crimes per 1,000 residents; 124.1 crimes per 1,000 residents; 122.5 crimes per 1,000 residents; 122 crimes per 1,000 residents. In all the cities, property crime was the most commited.
+              </p>
+              <p>
+               What do you think the highest total amount of crimes commited in a city was in 2017?
+             </p>
+             <button type="button" class="btn btn-lg"  id="answer1">43,921</button>
+             <button type="button" class="btn btn-lg" id="answer2">74,494</button>
+             <button type="button" class="btn btn-lg" id="answer3">81,392</button>
+             <button type="button" class="btn btn-lg" id="answer4">92,468</button>
+          </div>
+          <div id="result1">
+            <p>
+            Incorret. Jacksonville had the highest commited crimes at 74,494.
+            </p>
+          </div>
+          <div id="result2">
+            <p>
+            Correct. Jacksonville had the highest commited crimes at 74,494.
+            </p>
+          </div>
+          <div id="phase2">
+            <p>
+              The map below marks only cities with a population higher than 50,000 and shows their crime rates and total crime commited for 2017. How much crime is in your city?
+        	  </p>
+            <div id="mymap"></div>
+          </div>
+      </div>
+
+
+
+  	<div class="section" id="section3">
+      <h1>The Reason Behind Crime</h1>
+        <div id="phase3">
+           <p>
+             The <a href="https://ucr.fbi.gov/ucr-statistics-their-proper-use">FBI website</a> tells us to be careful when ranking total crime.<p>"These incomplete analyses have often created misleading perceptions which adversely affect geographic entities and their residents," according to FBI documentation. </p><p> They go on to explain that rankings ignore the uniqueness of each area and don't take in-account the social aspects that could be affecting that area. Some of these aspects can be urbanization, economics, modes of transportation and climate.
+           </p>
+           <p>
+             Which option below do you think can be a contributor to high crime rates?
+           </p>
+           <button type="button" class="btn btn-sm"  id="answer5">Household Income</button>
+           <button type="button" class="btn btn-sm" id="answer6">Graduation Rates</button>
+           <button type="button" class="btn btn-sm" id="answer7">Poverty</button>
+           <button type="button" class="btn btn-sm" id="answer8">All are Correct</button>
+        </div>
+        <div id="result3">
+          <p>
+          Incorret. All of the options are cited as factors that can affect crime rates and rankings by the FBI.
+          </p>
+        </div>
+        <div id="result4">
+          <p>
+          Correct. All of the options are cited as factors that can affect crime rates and rankings by the FBI.
+          </p>
+        </div>
+        <div id="phase4">
+          <p>
+            Click the buttons below to take a look out how 53 cities rank when compared by their median household income, how many residents live in poverty and how many students completed high school or higher education.
+          </p>
+          <button type="button" class="btn btn-sm"  id="option1">Median Household Income</button>
+          <button type="button" class="btn btn-sm" id="option2">Graduation Rates</button>
+          <button type="button" class="btn btn-sm" id="option3">Living in Poverty</button>
+          <div id="container1"></div>
+          <div id="container2"></div>
+          <div id="container3"></div>
+        </div>
+    </div>
+
+
+    <div class="section" id="section4">
+      <h1>How Does The Swamp Measure Up?</h1>
+        <div id="phase5">
+           <p>
+             Every city has its fair share of crime and Gainesville is no exception. In fact, when compared to similar cities, those that have a population between 100,000 and 150,000, the swamp is at the top of the charts. <p> As we just learned, comparing cities to each other can be misleading. Gainesville does have one of the highest citizens in poverty rate in the state.</p><p>What crimes do you think Gainesville is #1 in?
+           </p>
+           <button type="button" class="btn btn-sm"  id="answer9">Violent Crimes and Murder</button>
+           <button type="button" class="btn btn-sm" id="answer10">Rape and Larceny</button>
+           <button type="button" class="btn btn-sm" id="answer11">Arson and Motor Vehicle Thefts</button>
+           <button type="button" class="btn btn-sm" id="answer12">Burglary and Robbery</button>
+        </div>
+        <div id="result5">
+          <p>
+          Incorret. Gainesville is #1 in Rape and Larceny.
+          </p>
+        </div>
+        <div id="result6">
+          <p>
+          Correct. Gainesville is #1 in Rape and Larceny.
+          </p>
+        </div>
+        <div id="phase6">
+          <p>
+            Take a look at the different crimes reported by the FBI and how Gainesville fares against comparable cities. Find out where we ranked #2.
+          </p>
+            <button type="button" class="btn btn-sm"  id="option4">Violent Crime</button>
+            <button type="button" class="btn btn-sm"  id="option5">Murder and Nonnegligent Manslaughter</button>
+            <button type="button" class="btn btn-sm"  id="option6">Rape</button>
+            <button type="button" class="btn btn-sm"  id="option7">Robbery</button>
+            <button type="button" class="btn btn-sm"  id="option8">Aggravated Assault</button>
+            <button type="button" class="btn btn-sm"  id="option9">Property Crime</button>
+            <button type="button" class="btn btn-sm"  id="option10">Burglary</button>
+            <button type="button" class="btn btn-sm"  id="option11">Larceny Theft</button>
+            <button type="button" class="btn btn-sm"  id="option12">Motor Vehicle Theft</button>
+            <button type="button" class="btn btn-sm"  id="option13">Arson</button>
+          <div id="container4"></div>
+          <div id="container5"></div>
+          <div id="container6"></div>
+          <div id="container7"></div>
+          <div id="container8"></div>
+          <div id="container9"></div>
+          <div id="container10"></div>
+          <div id="container11"></div>
+          <div id="container12"></div>
+          <div id="container13"></div>
+        </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.pagepiling.js"></script>
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="js/main.js"></script>
+<script src="js/counties.json"></script>
+<script src="js/countymap.js"></script>
+<script src="js/firsthighchart.js"></script>
+<script src="js/secondhighchart.js"></script>
+<script src="js/thirdhighchart.js"></script>
+<script src="js/selecthighcharts.js"></script>
+</body>
+</html>

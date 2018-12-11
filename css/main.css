@@ -1,0 +1,269 @@
+a {
+  color: #F26D40;
+}
+
+p {
+  padding-left: 30rem;
+  padding-right: 30rem;
+  font-family: 'Manuale', 'Calibri', 'Georgia', serif;
+}
+h1 {
+  padding-left: 30rem;
+  padding-right: 30rem;
+  font-family: 'Futura', 'Times New Roman', serif;
+  font-size: 300%;
+  color: #F26D40;
+}
+ul {
+  padding-left: 30rem;
+  padding-right: 30rem;
+  font-family: 'Calibri', 'Georgia';
+}
+
+/* introduction */
+#section1 h1 {
+  color: #F26D40;
+}
+
+
+/* hotspots */
+#section2 h1 {
+  color: #fff;
+}
+#section2 p {
+  color: #fff;
+}
+#section2 a {
+  color: #A83738;
+}
+#section2 button {
+  margin-left: 30rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#section2 button:hover {
+  background-color: #F26D40;
+  color: white;
+}
+#section2 #answer2{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section2 #answer3{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section2 #answer4{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#mymap {
+  height: 400px;
+  width: 35%;
+  margin-left: 30rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* social factors */
+#section3 h1 {
+  color: #fff;
+  font-size: 250%;
+}
+#section3 p {
+  color: #fff;
+}
+#section3 a {
+  color: #000;
+}
+#section3 button {
+  margin-left: 30rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#section3 button:hover {
+  background-color: #F26D40;
+  color: white;
+}
+#section3 #answer6{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section3 #answer7{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section3 #answer8{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section3 #option1{
+  margin-left: 30rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section3 #option2{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section3 #option3{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#container1 {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#container2 {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#container3 {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* gainesville comparison */
+#section4 h1 {
+  color: #fff;
+  font-size: 250%;
+}
+#section4 p {
+  color: #fff;
+}
+#section4 a {
+  color: #000;
+}
+#section4 button {
+  margin-left: 30rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+#section4 button:hover {
+  background-color: #F26D40;
+  color: white;
+}
+#section4 #answer10{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #answer11{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #answer12{
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option4 {
+  margin-left: 30rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option5 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option6 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option7 {
+  margin-left: 0rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option8 {
+  margin-left: 30rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option9 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option10 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option11 {
+  margin-left: 0rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option12 {
+  margin-left: 30rem;
+  margin-right: 0rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#section4 #option13 {
+  margin-left: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#container4 {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#container5 {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+#container6, #container7, #container8, #container9, #container10, #container11, #container12, #container13 {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+/* menu buttons */
+#pagepiling #section1 ul {
+  list-style: none;
+}
+#pagepiling #section1 ul li {
+  border-top: 25px solid #fff;
+}
+#pagepiling #section1 ul li a {
+  background-color: #F26D40;
+  border-radius: 10px;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  width: 100%;
+}
+#pagepiling #section1 ul #s2 a{
+  background-color: #D95242;
+  color: #fff;
+}
+#pagepiling #section1 ul #s3 a{
+  background-color: #A83738;
+  color: #fff;
+}
